@@ -12,7 +12,7 @@ def main():
         elif x in posters:
             print("Sorry, same user can't reward twice.")
             show_details(points, posters)
-        elif number >= 4:
+        elif points >= 1:
             print("Vote not incremented as limit reached.")
             show_details(points, posters)
         else:
@@ -40,18 +40,17 @@ def eligibleposter(username):
 def calc_points(n):
     if n <= 0:
         return 0
-    if n >= 4:
-        return 1  # Just make the 0.9375 to 1
     s = 0
     for i in range(1,n+1):
         s = s + 1/(2**i)
+        if s >= 0.99:
+            s = 1
+            break
     return s
 
 
 # Just incrementing the points
 def incre(total_points, old, new):
-    if old >= 4 and new >= 4:
-        return total_points
     return (total_points - calc_points(old) + calc_points(new))
 
 
