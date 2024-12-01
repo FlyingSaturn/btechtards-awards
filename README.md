@@ -5,7 +5,7 @@ A point system being developed by the mods of r/btechtards.
 
 # Parameters
 
-0. Eligibility of the post
+0. Eligibility of the post (post flairs like "Showcase your project", or maybe we can make new post flairs for guides and technical stuff)
 1. Eligibilty of the user giving the award
 2. The one writing the comment/post should just have the normal requirements (so, nothing new needed)
 3. How many awards given to this post? If more, then automod says, "Nah I'd win, you won't be giving more awards to this asymptotic* piece of quality comment."
