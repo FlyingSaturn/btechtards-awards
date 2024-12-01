@@ -12,13 +12,16 @@ def main():
         elif x in posters:
             print("Sorry, same user can't reward twice.")
             show_details(points, posters)
+        elif number >= 4:
+            print("Vote not incremented. Limit reached.")
         else:
             posters.append(x)
             points = incre(points, number, number+1)
             number = number + 1
-            print("Votes incremented!")
             if (points >= 1):
-                break
+                print("Vote incremented. Limit reached")
+            else:
+                print("Vote incremented!")
             show_details(points, posters)
         op = input("Do you want to give it another award (y/n):")
     print("End result: ")
