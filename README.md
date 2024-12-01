@@ -1,4 +1,4 @@
-# btechtards-awards
+i# btechtards-awards
 A point system being developed by the mods of r/btechtards.
 (Name not given yet)
 
@@ -37,6 +37,8 @@ FACTOR is the variable which governs what part of the remaining distance should 
 
 
 Adjust the values and check for yourself which feels more of a healthy progression. I'll check with FACTOR = e.
+
+(It didn't work. Golden ratio didn't either. (1+1/e) suffered the same)
 
 # Points for the future (Self)
 
