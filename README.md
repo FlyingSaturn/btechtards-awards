@@ -21,24 +21,158 @@ Ever heard of [Zeno's Dichotomy Paradox](https://en.wikipedia.org/wiki/Zeno's_pa
 
 First of all, what is that paradox? Say, from Point A to B (1 unit length, you travel half the distance. From that half, you travel half the distance (1/4 + 1/2 = 3/4 or 0.75). From there, 1/8 added, we get 7/8. But we never reach 1.
 
-How has this been used here? We assume that once the system hits 0.9 points, it directly goes to 1, thereby breaking the asymptotic flow altogether. When it goes to 1, limit reached and the automod 'moves on' with the post. No more increments for that post, sorry. But if only 1 award has been given, half of the barrier has passed, because the first achievement is always the hardest. From then, it just goes to "the ocean is thirsty" mode, so we just put a stop altogether when it reaches .9375 points: we just increase it to 1.
+How has this been used here? We assume that once the system hits 0.99 points, it directly goes to 1, thereby breaking the asymptotic flow altogether. When it goes to 1, limit reached and the automod 'moves on' with the post. No more increments for that post, sorry. But if only 1 award has been given, half of the barrier has passed, because the first achievement is always the hardest. From then, it just goes to "the ocean is thirsty" mode, so we just put a stop altogether when it reaches .9375 points: we just increase it to 1.
 
 From the perspective of psychology (not physics/kinematics), it is in my personal opinion that Zeno's Dichotomy Paradox isn't a paradox, it's a reality. Increasing 1 lion among 99 lions DOESN'T INCREASE the problematic factor much, whereas adding one lion to another lion INCREASES the problematic factor much more THAN BEFORE. 
 
-In case of achievements, as said before, getting the first award is the hardest. That's why I literally claim, "You've done half of the work already." This will give incentives to people for even giving less amount of posts. I think the cap should be 0.99 instead of 0.9, I'll have to discuss with the peeps.
+In case of achievements, as said before, getting the first award is the hardest. That's why I literally claim, "You've done half of the work already." This will give incentives to people for even giving less amount of posts.
+
+# Test run of the simulation (Note the points)
+
+Welcome!
+
+This post/comment is eligible for your award.
+Give an award (name subject to change).
+Note that one user can only award a post once.
+
+Do you want to give it an award (y/n): y
+Name: abc
+Vote incremented!
+
+-----
+Details:
+No. of points: 0.5
+Posters:
+abc
+
+-----
+
+Do you want to give it another award (y/n):y
+Name: def
+Vote incremented!
+
+-----
+Details:
+No. of points: 0.75
+Posters:
+abc
+def
+
+-----
+
+Do you want to give it another award (y/n):y
+Name: efg
+Vote incremented!
+
+-----
+Details:
+No. of points: 0.875
+Posters:
+abc
+def
+efg
+
+-----
+
+Do you want to give it another award (y/n):y
+Name: ghi
+Vote incremented!
+
+-----
+Details:
+No. of points: 0.9375
+Posters:
+abc
+def
+efg
+ghi
+
+-----
+
+Do you want to give it another award (y/n):y
+Name: ijk
+Vote incremented!
+
+-----
+Details:
+No. of points: 0.96875
+Posters:
+abc
+def
+efg
+ghi
+ijk
+
+-----
+
+Do you want to give it another award (y/n):y
+Name: klm
+Vote incremented!
+
+-----
+Details:
+No. of points: 0.984375
+Posters:
+abc
+def
+efg
+ghi
+ijk
+klm
+
+-----
+
+Do you want to give it another award (y/n):y
+Name: ajsndnd
+Vote incremented. Limit reached.
+
+-----
+Details:
+No. of points: 1.0
+Posters:
+abc
+def
+efg
+ghi
+ijk
+klm
+ajsndnd
+
+-----
+
+Do you want to give it another award (y/n):y
+Vote not incremented as limit reached.
+
+-----
+Details:
+No. of points: 1.0
+Posters:
+abc
+def
+efg
+ghi
+ijk
+klm
+ajsndnd
+
+-----
+
+Do you want to give it another award (y/n):n
+End result:
+
+-----
+Details:
+No. of points: 1.0
+Posters:
+abc
+def
+efg
+ghi
+ijk
+klm
+ajsndnd
+
+-----
 
 
-### System of awards for the coders
-
-First award: Increases by 50% of 1 (.5)
-
-Second award: Increased by 25% of 1 (.75)
-
-Third award: Increased by 12.5% of 1 
-
-Fourth award: Increases to .9375, which ultimately goes to 1.
-
-No fifth or sixth awards.
-
-
-
+[Program finished]
