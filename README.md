@@ -28,8 +28,14 @@ From the perspective of psychology (not physics/kinematics), it is in my persona
 In case of achievements, as said before, getting the first award is the hardest. That's why I literally claim, "You've done half of the work already." This will give incentives to people for even giving less amount of posts. I think the cap should be 0.99 instead of 0.9, I'll have to discuss with the peeps.
 
 
+### System of awards for the coders
 
+First award: Increases by 50% of 1 (.5)
+Second award: Increased by 25% of 1 (.75)
+Third award: Increased by 12.5% of 1 
+Fourth award: Increases to .9375, which ultimately goes to 1.
 
+No fifth or sixth awards.
 
 
 
