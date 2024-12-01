@@ -13,7 +13,7 @@ A point system being developed by the mods of r/btechtards.
 5. Points exceeded? Limit reached bro.
 
 
-The whole thing is intentionally kept within an infinite loop. For now, it's just a simulation but is a very good metaphor for every case the PRAW integration may have.
+The whole thing is intentionally kept within an infinite loop. For now, it's just a simulation but is a very good metaphor for every case the PRAW integration might have.
 
 # *System of the increments
 
