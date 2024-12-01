@@ -1,3 +1,6 @@
+CAP = .99
+FACTOR = 2
+
 def main():
     posters=[]
     points=0
@@ -43,8 +46,8 @@ def calc_points(n):
         return 0
     s = 0
     for i in range(1,n+1):
-        s = s + 1/(2**i)
-        if s >= 0.99:
+        s = s + 1/(FACTOR**i)
+        if s >= CAP:
             s = 1
             break
     return s
