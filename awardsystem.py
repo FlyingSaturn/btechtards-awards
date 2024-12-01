@@ -5,25 +5,26 @@ def main():
     print("Welcome!\n\nThis post/comment is eligible for your award.\nGive an award (name subject to change).\nNote that one user can only award a post once.\n")
     op = input("Do you want to give it an award (y/n): ")
     while op.lower() in ['y', 'yes', '1']:
-        x = input("Name: ")
-        if not eligibleposter(x):
-            print("Sorry, you are not eligible for giving awards. Try again after you have all the requirements.")
-            show_details(points, posters)
-        elif x in posters:
-            print("Sorry, same user can't reward twice.")
-            show_details(points, posters)
-        elif points >= 1:
+        if points >= 1:
             print("Vote not incremented as limit reached.")
             show_details(points, posters)
         else:
-            posters.append(x)
-            points = incre(points, number, number+1)
-            number = number + 1
-            if (points >= 1):
-                print("Vote incremented. Limit reached.")
+            x = input("Name: ")
+            if not eligibleposter(x):
+                print("Sorry, you are not eligible for giving awards. Try again after you have all the requirements.")
+                show_details(points, posters)
+            elif x in posters:
+                print("Sorry, same user can't reward twice.")
+                show_details(points, posters)
             else:
-                print("Vote incremented!")
-            show_details(points, posters)
+                posters.append(x)
+                points = incre(points, number, number+1)
+                number = number + 1
+                if (points >= 1):
+                    print("Vote incremented. Limit reached.")
+                else:
+                    print("Vote incremented!")
+                show_details(points, posters)
         op = input("Do you want to give it another award (y/n):")
     print("End result: ")
     show_details(points, posters)
