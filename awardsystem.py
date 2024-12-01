@@ -36,6 +36,8 @@ def eligibleposter(username):
 def calc_points(n):
     if n <= 0:
         return 0
+    if n >= 4:
+        return 1
     s = 0
     for i in range(1,n+1):
         s = s + 1/(2**i)
