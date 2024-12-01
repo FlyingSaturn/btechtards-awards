@@ -4,7 +4,7 @@ def main():
     number=0
     print("Welcome!\n\nThis post/comment is eligible for your award.\nGive an award (name subject to change).\nNote that one user can only award a post once.\n")
     op = input("Do you want to give it an award (y/n): ")
-    while op == 'y':
+    while op.lower() in ['y', 'yes', '1']:
         x = input("Name: ")
         if not eligibleposter(x):
             print("Sorry, you are not eligible for giving awards. Try again after you have all the requirements.")
@@ -13,13 +13,14 @@ def main():
             print("Sorry, same user can't reward twice.")
             show_details(points, posters)
         elif number >= 4:
-            print("Vote not incremented. Limit reached.")
+            print("Vote not incremented as limit reached.")
+            show_details(points, posters)
         else:
             posters.append(x)
             points = incre(points, number, number+1)
             number = number + 1
             if (points >= 1):
-                print("Vote incremented. Limit reached")
+                print("Vote incremented. Limit reached.")
             else:
                 print("Vote incremented!")
             show_details(points, posters)
