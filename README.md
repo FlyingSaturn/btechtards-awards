@@ -25,7 +25,7 @@ How has this been used here? We assume that once the system hits 0.9 points, it 
 
 From the perspective of psychology (not physics/kinematics), it is in my personal opinion that Zeno's Dichotomy Paradox isn't a paradox, it's a reality. Increasing 1 lion among 99 lions DOESN'T INCREASE the problematic factor much, whereas adding one lion to another lion INCREASES the problematic factor much more THAN BEFORE. 
 
-In case of achievements, as said before, getting the first award is the hardest. That's why I literally claim, "You've done half of the work already." This will give incentives to people for even giving less amount of posts. I think the cap should be 0.9 instead of 0.99, I'll have to discuss with the peeps.
+In case of achievements, as said before, getting the first award is the hardest. That's why I literally claim, "You've done half of the work already." This will give incentives to people for even giving less amount of posts. I think the cap should be 0.99 instead of 0.9, I'll have to discuss with the peeps.
 
 
 
