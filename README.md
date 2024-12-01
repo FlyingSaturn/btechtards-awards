@@ -38,4 +38,8 @@ FACTOR is the variable which governs what part of the remaining distance should 
 
 Adjust the values and check for yourself which feels more of a healthy progression. I'll check with FACTOR = e.
 
+# Points for the future (Self)
+
+- Before pitching the idea, try to integrate Devvit or CRON in the mix. You need to know Reddis man.
+
 
