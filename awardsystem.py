@@ -46,6 +46,8 @@ def calc_points(n):
 
 # Just incrementing the points
 def incre(total_points, old, new):
+    if old >= 4 and new >= 4:
+        return total_points
     return (total_points - calc_points(old) + calc_points(new))
 
 
