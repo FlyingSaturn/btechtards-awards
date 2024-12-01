@@ -23,6 +23,6 @@ First of all, what is that paradox? Say, from Point A to B (1 unit length, you t
 
 How has this been used here? We assume that once the system hits 0.99 points, it directly goes to 1, thereby breaking the asymptotic flow altogether. When it goes to 1, limit reached and the automod 'moves on' with the post. No more increments for that post, sorry. But if only 1 award has been given, half of the barrier has passed, because the first achievement is always the hardest. From then, it just goes to "the ocean is thirsty" mode, so we just put a stop altogether when it reaches .99-something points: we just increase it to 1.
 
-From the perspective of psychology (not physics/kinematics), it is in my personal opinion that Zeno's Dichotomy Paradox isn't a paradox, it's a reality. Increasing 1 lion among 99 lions DOESN'T INCREASE the problematic factor much, whereas adding one lion to another lion INCREASES the problematic factor much more THAN BEFORE. 
+From the perspective of psychology (not physics/kinematics), it is in my personal opinion that Zeno's Dichotomy Paradox isn't a paradox, it's a reality. I heard from somewhere that if there is/are lions chasing you, then increasing 1 lion among 99 lions DOESN'T INCREASE the problematic factor much, whereas adding one lion to another lion INCREASES the problematic factor much more THAN BEFORE. 
 
 In case of achievements, as said before, getting the first award is the hardest. That's why I literally claim, "You've done half of the work already." This will give incentives to people for even giving less amount of posts.
