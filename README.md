@@ -1,4 +1,4 @@
-# btechtards-awards
+i# btechtards-awards
 A point system being developed by the mods of r/btechtards.
 (Name not given yet)
 
@@ -31,8 +31,11 @@ In case of achievements, as said before, getting the first award is the hardest.
 ### System of awards for the coders
 
 First award: Increases by 50% of 1 (.5)
+
 Second award: Increased by 25% of 1 (.75)
+
 Third award: Increased by 12.5% of 1 
+
 Fourth award: Increases to .9375, which ultimately goes to 1.
 
 No fifth or sixth awards.
