@@ -26,3 +26,16 @@ How has this been used here? We assume that once the system hits 0.99 points, it
 From the perspective of psychology (not physics/kinematics), it is in my personal opinion that Zeno's Dichotomy Paradox isn't a paradox, it's a reality. I heard from somewhere that if there is/are lions chasing you, then increasing 1 lion among 99 lions DOESN'T INCREASE the problematic factor much, whereas adding one lion to another lion INCREASES the problematic factor much more THAN BEFORE. 
 
 In case of achievements, as said before, getting the first award is the hardest. That's why I literally claim, "You've done half of the work already." This will give incentives to people for even giving less amount of posts.
+
+# Constants used
+
+Deserves a separate section of its own.
+
+CAP is the limit value. When the points equal or exceed CAP, then points = 1 and the limit is reached. CAP shouldn't be increased more than 1. Even then, increasing CAP to something more than .95 isn't recommended. CAP more, delay to get to 1 more.
+
+FACTOR is the variable which governs what part of the remaining distance should be covered. Increase the factor, more delays.
+
+
+Adjust the values and check for yourself which feels more of a healthy progression. I'll check with FACTOR = e.
+
+
