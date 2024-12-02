@@ -40,6 +40,19 @@ Adjust the values and check for yourself which feels more of a healthy progressi
 
 (It didn't work. Golden ratio didn't either. (1+1/e) suffered the same)
 
+# Mathematical Perspective
+
+We were using 1/(FACTOR^n) for our needs. Basically, we were adding (FACTOR^(-n)). Notice that the initial value wasn't 1, it was .5. Otherwise, the infinite geometric series would have converged to 2. But converges to 1. Therefore, in the GP, a = 1*(1/r). While calculating the series, we get
+
+(1 * (1/r)) / (1 - 1/r)
+
+which results in 
+
+1 / (r - 1)
+
+Putting y = 1/(x-1) on a graph, we notice that for 2, it's 1, for e, it's 0.58..., we need something which will work. I don't think that changing the FACTOR will work, or it will... if done carefully.
+We can make the factor less than 2, but just by a bit. We can also change the CAP to a smaller value, from example, from .99 to .96
+
 # Points for the future (Self)
 
 - Before pitching the idea, try to integrate Devvit or CRON in the mix. You need to know Reddis man.
