@@ -42,7 +42,9 @@ Adjust the values and check for yourself which feels more of a healthy progressi
 
 # Mathematical Perspective
 
-We were using 1/(FACTOR^n) for our needs. Basically, we were adding (FACTOR^(-n)). Notice that the initial value wasn't 1, it was .5. Otherwise, the infinite geometric series would have converged to 2. But converges to 1. Therefore, in the GP, a = 1*(1/r). While calculating the series, we get
+We were using 1/(FACTOR^n) for our needs. Basically, we were adding (FACTOR^(-n)). Notice that the initial value wasn't 1, it was .5. Otherwise, the infinite geometric series would have converged to 2. But converges to 1. (Man, humans INDEED think in terms of multiplication, not addition)
+
+Therefore, in the GP, a = 1*(1/r). While calculating the series, we get
 
 (1 * (1/r)) / (1 - 1/r)
 
