@@ -55,6 +55,6 @@ We can make the factor less than 2, but just by a bit. We can also change the CA
 
 # Points for the future (Self)
 
-- Before pitching the idea, try to integrate Devvit or CRON in the mix. You need to know Reddis man.
+- Before pitching the idea, try to integrate Devvit or CRON in the mix. You need to know Redis man.
 
 
