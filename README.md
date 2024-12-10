@@ -17,7 +17,7 @@ The whole thing is intentionally kept within an infinite loop. For now, it's jus
 
 # *System of the increments
 
-Ever heard of [Zeno's Dichotomy Paradox](https://en.wikipedia.org/wiki/Zeno's_paradoxes#Dichotomy_paradox)? I (u/lonelyroom-eklaghor) am planning to keep something like diminishing returns, much like that Dichotomy paradox. This particular idea of mine is unknowingly influenced by a bit of a psychology too.
+Ever heard of [Zeno's Dichotomy Paradox](https://en.wikipedia.org/wiki/Zeno's_paradoxes#Dichotomy_paradox)? I (u/lonelyroom-eklaghor) am planning to keep something like diminishing returns, much like that Dichotomy paradox. [This particular idea of mine is unknowingly influenced by a VSauce video.](https://youtu.be/Pxb5lSPLy9c)
 
 First of all, what is that paradox? Say, from Point A to B (1 unit length, you travel half the distance. From that half, you travel half the distance (1/4 + 1/2 = 3/4 or 0.75). From there, 1/8 added, we get 7/8. But we never reach 1.
 
