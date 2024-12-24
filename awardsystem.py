@@ -1,4 +1,4 @@
-CAP = .99
+CAP = .95
 FACTOR = 2
 
 def main():
