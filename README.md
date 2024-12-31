@@ -58,5 +58,6 @@ We can make the factor less than 2, but just by a bit. We can also change the CA
 # Points for the future (Self)
 
 - Before pitching the idea, try to integrate Devvit or CRON in the mix. You need to know Redis man.
-
+- Tracking needed: we just need to track the post and who awarded the awards (maybe same IP addresses can't award the same person ig?), then we'll save the TOTAL points of the post and the posters who contributed. All of these saved stuff will actually be attached to the post, and the post will be attached to the user. Now, for addition, we'll add the name of that specific poster and will update the field like this: `points = points - prev + zeno()`, where we literally won't need to care what the next value will be based on the previous value. This will give us some independence to experiment with `zeno()`.
+- zeno() should actually recalculate the no. of points, like, reinventing the wheel. 
 
